@@ -1,5 +1,3 @@
-'use strict';
-
 var Transform = require('stream').Transform,
     inherits = require('util').inherits;
 
@@ -35,8 +33,8 @@ ArrayObjectify.prototype._transform = function (row, enc, callback) {
   callback();
 };
 
-ArrayObjectify.prototype.rows = function () {
-  return this._rows;
+ArrayObjectify.prototype.header = function() {
+  return this._header;
 };
 
 module.exports = ArrayObjectify;
