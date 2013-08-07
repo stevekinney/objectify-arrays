@@ -9,6 +9,9 @@
     "email": "hello@stevekinney.net",
     "url": "http://stevekinney.net"
   },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/stevekinney/csv-to-json"
@@ -18,10 +21,6 @@
       "type": "MIT"
     }
   ],
-  "dependencies": {
-    "csv2": "0.0.4",
-    "through2": "~0.1.0"
-  },
   "devDependencies": {
     "mocha": "~1.12.0"
   }
