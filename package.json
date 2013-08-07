@@ -1,8 +1,8 @@
 {
-  "name": "objectify-array",
+  "name": "objectify-arrays",
   "version": "0.0.1",
   "description": "Create objects from arrays using the Streams2 API.",
-  "bugs": "https://github.com/stevekinney/objectify-array/issues",
+  "bugs": "https://github.com/stevekinney/objectify-arrays/issues",
   "author": {
     "name": "Steve Kinney",
     "email": "hello@stevekinney.net",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevekinney/objectify-array"
+    "url": "https://github.com/stevekinney/objectify-arrays"
   },
   "keywords": [
     "stream",
