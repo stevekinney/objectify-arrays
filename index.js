@@ -1,4 +1,4 @@
-var Transform = require('stream').Transform,
+var Transform = require('stream').Transform || require('readable-stream/transform'),
     inherits = require('util').inherits;
 
 function ArrayObjectify (options) {
