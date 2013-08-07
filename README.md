@@ -40,4 +40,4 @@ Beyond that, it's subclassed from `stream.Transform`, so it has inherited all of
 ## License
 Copyright (c) 2013 Steve Kinney. Licensed under the MIT license.
 
-[![NPM](https://nodei.co/npm/csv2.png?compact=true)](https://nodei.co/npm/objectify-arrays/) 
+[![NPM](https://nodei.co/npm/objectify-arrays.png?compact=true)](https://nodei.co/npm/objectify-arrays/) 
