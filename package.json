@@ -1,9 +1,8 @@
 {
-  "name": "csv-to-json",
-  "version": "0.0.0",
-  "description": "Convert CSV-formatted to JSON using the Streams2 API.",
-  "homepage": "http://stevekinney.github.io/csv-to-json",
-  "bugs": "https://github.com/stevekinney/csv-to-json/issues",
+  "name": "objectify-array",
+  "version": "0.0.1",
+  "description": "Create objects from arrays using the Streams2 API.",
+  "bugs": "https://github.com/stevekinney/objectify-array/issues",
   "author": {
     "name": "Steve Kinney",
     "email": "hello@stevekinney.net",
@@ -14,13 +13,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevekinney/csv-to-json"
+    "url": "https://github.com/stevekinney/objectify-array"
   },
+  "keywords": [
+    "stream",
+    "streams2",
+    "csv",
+    "array"
+  ],
   "licenses": [
     {
       "type": "MIT"
     }
   ],
+  "dependencies": {
+    "readable-stream": "~1.0.2"
+  },
   "devDependencies": {
     "mocha": "~1.12.0"
   }
