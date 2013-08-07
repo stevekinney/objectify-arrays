@@ -1,0 +1,4 @@
+/node_modules/
+*.un~
+npm_debug.log
+.DS_Store

@@ -1,0 +1,28 @@
+{
+  "name": "csv-to-json",
+  "version": "0.0.0",
+  "description": "Convert CSV-formatted to JSON using the Streams2 API.",
+  "homepage": "http://stevekinney.github.io/csv-to-json",
+  "bugs": "https://github.com/stevekinney/csv-to-json/issues",
+  "author": {
+    "name": "Steve Kinney",
+    "email": "hello@stevekinney.net",
+    "url": "http://stevekinney.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevekinney/csv-to-json"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "csv2": "0.0.4",
+    "through2": "~0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  }
+}
