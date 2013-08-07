@@ -18,12 +18,11 @@ inherits(ArrayObjectify, Transform);
 
 ArrayObjectify.prototype._transform = function (row, enc, callback) {
   var data;
-  if (!this._header) {
-    this._header = row;
-    this.emit('headers:received', row);
+  if (!this.getHeader()) {
+    this.setHeader(row);
   } else {
     data = {};
-    this._header.forEach(function(element, index){
+    this.getHeader().forEach(function(element, index){
       data[element] = row[index];
     });
   }
@@ -33,8 +32,12 @@ ArrayObjectify.prototype._transform = function (row, enc, callback) {
   callback();
 };
 
-ArrayObjectify.prototype.header = function() {
+ArrayObjectify.prototype.getHeader = function() {
   return this._header;
 };
 
+ArrayObjectify.prototype.setHeader = function(row) {
+  this._header = row;
+  this.emit('headers:received', row);
+};
 module.exports = ArrayObjectify;
